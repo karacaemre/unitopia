@@ -1,0 +1,147 @@
+body {
+  font-family: 'Gabriela', serif;
+}
+
+#footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+  margin-top: 30px;
+}
+
+body>.container {
+  padding: 30px 15px 0px;
+}
+
+/*Footer - behappy*/
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer>.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+/* RESPONSIVE CSS */
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+}
+
+.my-image {
+  width: 140px;
+  height: 140px;
+  float: left;
+  margin-top: 25px;
+  margin-right: 15px;
+}
+
+.heading {
+  margin: 0 0 20px;
+  padding: 0 0 10px;
+  font-size: 24px;
+  line-height: 24px;
+  border-bottom: 1px solid #929292;
+  color: #929292;
+}
+
+.summary {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*education-work top titles*/
+.ed-title {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: italic;
+  color: #555;
+}
+
+.grade {
+  float: right;
+  font-size: 10px;
+  color: #333;
+  width: 250px;
+}
+
+.grade-progress-bar {
+  width: 250px;
+  height: 18px;
+  margin-top: 15px;
+}
+
+/*education-work bot titles*/
+.work-summary-box {
+  margin-top: 15px;
+}
+/*education-work bot texts*/
+.work-desc-box {
+  border-left: 2px solid #f0ad4e;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+/*current job*/
+.right-side {
+  float: right;
+  margin-top: 5px;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.skills-heading {
+  font-size: 20px;
+  line-height: 20px;
+  border-bottom: 1px dotted #A2A2A2;
+}
+
+.skills-table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skill-learning {
+  color: #3c763d;
+}
+
+.skills-sub-headers {
+  font-size: 15px;
+  line-height: 15px;
+}
+
+
+.contact-header {
+  font-size: 25px;
+  line-height: 25px;
+  color: #727272;
+  margin: 0 0 15px 0;
+}
+
+section {
+  padding-top: 15px;
+}
+
+/*courses tickmark*/
+.tickmark {
+  color: #aaa;
+  font-size: 10px;
+}
+
+.edu-date {
+  font-size: 11px;
+  margin-left: 15px;
+}
+
+.main-header {
+  background: #fff;
+  color: #727272;
+	padding-top: 60px;
+  padding-bottom: 15px;
+}
