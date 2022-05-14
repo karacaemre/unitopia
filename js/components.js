@@ -104,7 +104,7 @@ class MyHeader extends HTMLElement {
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<a class="dropdown-item" href="teacher.html">ÖĞRENCİ</a>
-							<a class="dropdown-item" href="#">Öğrenci Kulüpleri</a>
+							<a class="dropdown-item" href="student-clubs.html">Öğrenci Kulüpleri</a>
 							<a class="dropdown-item" href="#">Yemekhane</a>
 							<a class="dropdown-item" href="#">Bölümler</a>
 							<a class="dropdown-item" href="#">Aday Öğrenci</a>
