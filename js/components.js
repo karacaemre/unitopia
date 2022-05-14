@@ -56,7 +56,7 @@ class MyHeader extends HTMLElement {
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item"><a href="index.html" class="nav-link pl-0">Anasayfa</a></li>
 					<li class="nav-item"><a href="about.html" class="nav-link">Hakkımızda</a></li>
-	
+
 					<li class="dropdown nav-item active">
 						<a class="nav-link dropdown-toggle" id="dropdownMenuButton" role="button" data-toggle="dropdown"
 							aria-haspopup="true" aria-expanded="false" data-mdb-toggle="dropdown" aria-expanded="false">
@@ -95,8 +95,8 @@ class MyHeader extends HTMLElement {
 							</li>
 						</ul>
 					</li>
-	
-	
+
+
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -108,12 +108,12 @@ class MyHeader extends HTMLElement {
 							<a class="dropdown-item" href="#">Yemekhane</a>
 							<a class="dropdown-item" href="#">Bölümler</a>
 							<a class="dropdown-item" href="#">Aday Öğrenci</a>
-	
+
 						</div>
 					</li>
-	
-					<li class="nav-item"><a href="blog.html" class="nav-link">İletişim</a></li>
-	
+
+					<li class="nav-item"><a href="contact.html" class="nav-link">İletişim</a></li>
+
 					<!-- <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> -->
 				</ul>
 			</div>
@@ -206,7 +206,7 @@ class MyFooter extends HTMLElement {
               </div>
               <div class="row">
                 <div class="col-md-12 text-center">
-      
+
                   <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
