@@ -140,6 +140,7 @@ class MyFooter extends HTMLElement {
                       <li><a href="about.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Hakkımızda</a></li>
                       <li><a href="faculties.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Fakülteler</a></li>
                       <li><a href="yemekhane.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Yemekhane</a></li>
+					  <li><a href="blog.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Blog</a></li>
                       <li><a href="contact.html"><span class="ion-ios-arrow-round-forward mr-2"></span>İletişim</a></li>
                     </ul>
                   </div>
