@@ -124,7 +124,7 @@ class MyFooter extends HTMLElement {
                       <h2 class="ftco-heading-2">İletişim Bilgilerimiz</h2>
                       <div class="block-23 mb-3">
                         <ul>
-                          <li><span class="icon icon-map-marker"></span><span class="text">Sen bana bakma ben senin baktığın yönde olurum.</span></li>
+                          <li><span class="icon icon-map-marker"></span><span class="text">Dünyanın dört bir yanında. Biri mutlaka yanı başınızda.</span></li>
                           <li><span class="icon icon-phone"></span><span class="text">Sen beni çaldır ben ararım. Sana yazmasın.</span></li>
                           <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@unitopia.com</span></a></li>
                         </ul>
@@ -146,10 +146,10 @@ class MyFooter extends HTMLElement {
                 <div class="col-md-8 col-lg-4">
                   <div class="ftco-footer-widget mb-5">
                       <h2 class="ftco-heading-2">Abone Olun!</h2>
-                    <form action="#" class="subscribe-form">
+                    <form action="construction.html" class="subscribe-form">
                       <div class="form-group">
-                        <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                        <input type="submit" value="Subscribe" class="form-control submit px-3">
+                        <input type="text" class="form-control mb-2 text-center" placeholder="Email adresinizi girin">
+                        <input type="submit" value="Abone ol" class="form-control submit px-3">
                       </div>
                     </form>
                   </div>
