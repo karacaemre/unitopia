@@ -124,9 +124,9 @@ class MyFooter extends HTMLElement {
                       <h2 class="ftco-heading-2">İletişim Bilgilerimiz</h2>
                       <div class="block-23 mb-3">
                         <ul>
-                          <li><span class="icon icon-map-marker"></span><span class="text">Dünyanın dört bir yanında. Biri mutlaka yanı başınızda.</span></li>
-                          <li><span class="icon icon-phone"></span><span class="text">Sen beni çaldır ben ararım. Sana yazmasın.</span></li>
-                          <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@unitopia.com</span></a></li>
+                          <li><span class="icon icon-map-marker"></span><span class="text">Ütopya</span></li>
+                          <li><span class="icon icon-phone"></span><span class="text">+90 (123) 456 78 90</span></li>
+                          <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@unitopia.edu.tr</span></a></li>
                         </ul>
                       </div>
                   </div>
@@ -145,20 +145,11 @@ class MyFooter extends HTMLElement {
                 </div>
                 <div class="col-md-8 col-lg-4">
                   <div class="ftco-footer-widget mb-5">
-                      <h2 class="ftco-heading-2">Abone Olun!</h2>
-                    <form action="construction.html" class="subscribe-form">
-                      <div class="form-group">
-                        <input type="text" class="form-control mb-2 text-center" placeholder="Email adresinizi girin">
-                        <input type="submit" value="Abone ol" class="form-control submit px-3">
-                      </div>
-                    </form>
-                  </div>
-                  <div class="ftco-footer-widget mb-5">
                       <h2 class="ftco-heading-2 mb-0">Bizi Takip Edin!</h2>
                       <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                      <li class="ftco-animate"><a href="https://twitter.com/elonmusk" target="_blank"><span class="icon-twitter"></span></a></li>
-                      <li class="ftco-animate"><a href="https://www.facebook.com/zuck" target="_blank"><span class="icon-facebook"></span></a></li>
-                      <li class="ftco-animate"><a href="https://www.instagram.com/kyliejenner/" target="_blank"><span class="icon-instagram"></span></a></li>
+                      <li class="ftco-animate"><a href=#><span class="icon-twitter"></span></a></li>
+                      <li class="ftco-animate"><a href=#><span class="icon-facebook"></span></a></li>
+                      <li class="ftco-animate"><a href=#><span class="icon-instagram"></span></a></li>
                     </ul>
                   </div>
                 </div>
