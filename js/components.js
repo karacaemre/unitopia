@@ -156,9 +156,9 @@ class MyFooter extends HTMLElement {
                   <div class="ftco-footer-widget mb-5">
                       <h2 class="ftco-heading-2 mb-0">Bizi Takip Edin!</h2>
                       <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                      <li class="ftco-animate"><a href="https://twitter.com/elonmusk"><span class="icon-twitter"></span></a></li>
-                      <li class="ftco-animate"><a href="https://www.facebook.com/zuck"><span class="icon-facebook"></span></a></li>
-                      <li class="ftco-animate"><a href="https://www.instagram.com/kyliejenner/"><span class="icon-instagram"></span></a></li>
+                      <li class="ftco-animate"><a href="https://twitter.com/elonmusk" target="_blank"><span class="icon-twitter"></span></a></li>
+                      <li class="ftco-animate"><a href="https://www.facebook.com/zuck" target="_blank"><span class="icon-facebook"></span></a></li>
+                      <li class="ftco-animate"><a href="https://www.instagram.com/kyliejenner/" target="_blank"><span class="icon-instagram"></span></a></li>
                     </ul>
                   </div>
                 </div>
