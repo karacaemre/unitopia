@@ -81,6 +81,7 @@ class MyHeader extends HTMLElement {
 									</li>
 								</ul>
 							</li>
+							<a class="dropdown-item" href="teacher.html">Akademik Kadro</a>
 						</ul>
 					</li>
 
@@ -91,7 +92,7 @@ class MyHeader extends HTMLElement {
 							Öğrenci
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="construction.html">Öğrenci Kulüpleri</a>
+							<a class="dropdown-item" href="student-clubs.html">Öğrenci Kulüpleri</a>
 							<a class="dropdown-item" href="yemekhane.html">Yemekhane</a>
 							<a class="dropdown-item" href="construction.html">Aday Öğrenci</a>
 
