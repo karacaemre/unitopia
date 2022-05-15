@@ -42,39 +42,42 @@ class MyHeader extends HTMLElement {
 					<li class="nav-item"><a href="index.html" class="nav-link pl-0">Anasayfa</a></li>
 					<li class="nav-item"><a href="about.html" class="nav-link">Hakkımızda</a></li>
 
-					<li class="dropdown nav-item active">
+					<li class="dropdown nav-item">
 						<a class="nav-link dropdown-toggle" id="dropdownMenuButton" role="button" data-toggle="dropdown"
 							aria-haspopup="true" aria-expanded="false" data-mdb-toggle="dropdown" aria-expanded="false">
 							Akademik
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-							<a class="dropdown-item" href="courses.html">AKADEMİK</a>
-							<a class="dropdown-item" href="#">Enstitüler</a>
-							<a class="dropdown-item" href="#">Yüksekokullar</a>
+							<a class="dropdown-item" href="construction.html">Enstitüler</a>
+							<a class="dropdown-item" href="construction.html">Yüksekokullar</a>
 							<li>
-								<a class="dropdown-item" href="#">
+								<a class="dropdown-item" href="faculties.html">
 									Fakülteler &raquo;
 								</a>
 								<ul class="dropdown-menu dropdown-submenu">
 									<li>
-										<a class="dropdown-item" href="#">blabla</a>
-									</li>
-									<li>
-										<a class="dropdown-item" href="#">bla bla</a>
-									</li>
-									<li>
-										<a class="dropdown-item" href="#">Mühendislik Fak &raquo; </a>
+										<a class="dropdown-item" href="#">Mühendislik Fakültes &raquo; </a>
 										<ul class="dropdown-menu dropdown-submenu">
 											<li>
-												<a class="dropdown-item" href="bolum.html">Bilgisayar</a>
+												<a class="dropdown-item" href="construction.html">Bilgisayar</a>
 											</li>
 											<li>
-												<a class="dropdown-item" href="#">Elektrik Elektronik</a>
+												<a class="dropdown-item" href="construction.html">Elektrik Elektronik</a>
 											</li>
 											<li>
-												<a class="dropdown-item" href="#">Makine</a>
+												<a class="dropdown-item" href="construction.html">Makine</a>
 											</li>
 										</ul>
+										
+									</li>
+									<li>
+										<a class="dropdown-item" href="#">Tıp Fakültesi &raquo; </a>
+										<ul class="dropdown-menu dropdown-submenu">
+											<li>
+												<a class="dropdown-item" href="tipfak.html">Tıp</a>
+											</li>
+										</ul>
+										
 									</li>
 								</ul>
 							</li>
@@ -88,16 +91,9 @@ class MyHeader extends HTMLElement {
 							Öğrenci
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="teacher.html">ÖĞRENCİ</a>
-<<<<<<< HEAD
-							<a class="dropdown-item" href="student-clubs.html">Öğrenci Kulüpleri</a>
-							<a class="dropdown-item" href="#">Yemekhane</a>
-=======
-							<a class="dropdown-item" href="#">Öğrenci Kulüpleri</a>
+							<a class="dropdown-item" href="construction.html">Öğrenci Kulüpleri</a>
 							<a class="dropdown-item" href="yemekhane.html">Yemekhane</a>
->>>>>>> 54a0f7bf4580a8e76d95239ffa78afe9f5a40cce
-							<a class="dropdown-item" href="#">Bölümler</a>
-							<a class="dropdown-item" href="#">Aday Öğrenci</a>
+							<a class="dropdown-item" href="construction.html">Aday Öğrenci</a>
 
 						</div>
 					</li>
