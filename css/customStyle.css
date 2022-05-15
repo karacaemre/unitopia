@@ -17,3 +17,21 @@
 .dropdown-menu>li:hover>.dropdown-submenu {
     display: block;
 }
+
+.announcements span {
+    color: #fd5f00;
+}
+.announcements .date{
+    flex-shrink: 0; 
+    width: 80px;
+}
+
+.announcements a {
+    color: #666666;
+    display: inline;
+    position: absolute;
+    left: 100px !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
