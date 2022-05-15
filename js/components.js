@@ -56,7 +56,7 @@ class MyHeader extends HTMLElement {
 								</a>
 								<ul class="dropdown-menu dropdown-submenu">
 									<li>
-										<a class="dropdown-item" href="#">Mühendislik Fakültes &raquo; </a>
+										<a class="dropdown-item">Mühendislik Fakültes &raquo; </a>
 										<ul class="dropdown-menu dropdown-submenu">
 											<li>
 												<a class="dropdown-item" href="construction.html">Bilgisayar</a>
@@ -71,7 +71,7 @@ class MyHeader extends HTMLElement {
 										
 									</li>
 									<li>
-										<a class="dropdown-item" href="#">Tıp Fakültesi &raquo; </a>
+										<a class="dropdown-item">Tıp Fakültesi &raquo; </a>
 										<ul class="dropdown-menu dropdown-submenu">
 											<li>
 												<a class="dropdown-item" href="tipfak.html">Tıp</a>
@@ -91,7 +91,7 @@ class MyHeader extends HTMLElement {
 							Öğrenci
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="construction.html">Öğrenci Kulüpleri</a>
+							<a class="dropdown-item" href="student-clubs.html">Öğrenci Kulüpleri</a>
 							<a class="dropdown-item" href="yemekhane.html">Yemekhane</a>
 							<a class="dropdown-item" href="construction.html">Aday Öğrenci</a>
 
