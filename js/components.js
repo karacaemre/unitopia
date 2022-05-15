@@ -81,6 +81,7 @@ class MyHeader extends HTMLElement {
 									</li>
 								</ul>
 							</li>
+							<a class="dropdown-item" href="teacher.html">Akademik Kadro</a>
 						</ul>
 					</li>
 
