@@ -14,11 +14,22 @@ const sendHttpRequest = (method, url, data) => {
 
     xhr.onload = () => {
 
-      resolve(xhr.response);
+      if (xhr.status >= 400) {
+        reject(xhr.response);
+      }
+      else{
+
+        resolve(xhr.response);
+      }
       // const data = JSON.parse(xhr.response);
       // console.log(data);
 
     };
+
+    xhr.onerror = () => {
+      reject('Bir hata oldu!');
+    };
+
     xhr.send(JSON.stringify(data));
   });
   return promise;
@@ -26,22 +37,24 @@ const sendHttpRequest = (method, url, data) => {
 
 const getData = () => {
 
-  sendHttpRequest('GET', 'http://192.168.1.49:3001/users').then(responseData => {
+  sendHttpRequest('GET', 'http://localhost:3001/users/getAll').then(responseData => {
     console.log(responseData);
   });
 
 };
 
 const sendData = () => {
-  sendHttpRequest('POST', 'http://192.168.1.49:3001/users', {
+  sendHttpRequest('POST', 'http://localhost:3001/users/create', {
 
-    email: "emre@test.com",
-    name: "Emre Test",
-    password: "123456hash",
-    role: "admin"
+    email: "teseettiir@test.com",
+    name: "Emrrete Test2",
+    password: "123e4536hashh",
+    role: "tesetrtir"
 
   }).then(responseData => {
     console.log(responseData);
+  }).catch(err => {
+    console.log(err);
   });
 };
 
