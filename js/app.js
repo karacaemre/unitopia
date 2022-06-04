@@ -29,7 +29,10 @@ const displayCharacters = (characters) => {
     const htmlString = characters
         .map((character) => {
             return `
+
+
             <li class="character">
+
                 <h2>${character.header}</h2>
                 <h5>${character.authorId}</h5>
                 <p>${character.content}</p>
