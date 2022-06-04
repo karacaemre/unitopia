@@ -149,7 +149,7 @@ span {
     text-align: center;
 }
 
-#charactersList {
+/* #charactersList {
     padding-inline-start: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -181,3 +181,4 @@ span {
     display: flex;
     justify-content: space-between;
 }
+*/

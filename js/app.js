@@ -29,14 +29,16 @@ const displayCharacters = (characters) => {
     const htmlString = characters
         .map((character) => {
             return `
+            <div  class="col-md-6 col-lg-4">
+            <div class="blog-entry">
+                <div class="text bg-white p-4">
+                    <h3 class="heading">${character.header}</h3>
+                    <p>${character.content}</p>
+                    <p>Yazarı: ${character.authorId}</p>
+                </div>
+            </div>
+            </div>
 
-
-            <li class="character">
-
-                <h2>${character.header}</h2>
-                <h5>${character.authorId}</h5>
-                <p>${character.content}</p>
-            </li>
         `;
         })
         .join('');
