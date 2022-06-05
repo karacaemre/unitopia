@@ -25,7 +25,7 @@ const displayAnnouncements = (announcements) => {
         .map((announcement) => {
             return `
 
-            <li class="d-flex duyuru" onclick="location.href = 'duyuru-detay1.html?announcementId=${announcement.id}'; console.log('you clicked to  '+${announcement.id});">
+            <li class="d-flex duyuru" onclick="location.href = 'duyuru-detay.html?announcementId=${announcement.id}'; console.log('you clicked to  '+${announcement.id});">
                 <div class="date">
                     <span>${announcement.createdAt.substr(8, 2)}/${announcement.createdAt.substr(5, 2)}/${announcement.createdAt.substr(2, 2)}</span>
                 </div>

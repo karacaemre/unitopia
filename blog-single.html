@@ -2,236 +2,126 @@
 <html lang="en">
 
 <head>
-    <title>Unitopia Utopian University</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Unitopia Utopian University</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
 
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/aos.css">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
 
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/customStyle.css">
-    <script src="js/components.js"></script>
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/customStyle.css">
+  <script src="js/components.js"></script>
+  <script src="js/getSingleBlog.js"></script>
 </head>
 
 <body>
-  <h1>1306180033</h1>
-    <my-header></my-header>
-    <!-- END nav -->
+  <h1>1306130076</h1>
+  <my-header></my-header>
+  <!-- END nav -->
+<!--  <script type="text/javascript">
+    const api_url = 'http://localhost:3001/blogs/getOne/2';
+    async function getBlog() {
+      const response = await fetch(api_url);
+      const data = await response.json();
+      const {
+        header,
+        content,
+        authorId
+      } = data;
+      const user_id_string=authorId.toString();
+      const user_api='http://localhost:3001/users/getOne/'+user_id_string;
+
+      const userresponse = await fetch(user_api);
+      const userdata = await userresponse.json();
 
 
-    <br><br><br>
-    <div>
-        <a href="blog.html" style="display: flex; align-items: center; justify-content: center;">Blog Sayfasına geri dön <i class="ion-ios-arrow-forward"></i></a></span>
-        </p>
+
+      document.getElementById("blog-header").textContent = header;
+      document.getElementById("blog-content").textContent = content;
+      document.getElementById("author-name").textContent = userdata.name;
+      console.log(content);
+      console.log(header);
+      console.log(authorId);
+      console.log(user_id_string);
+      console.log(user_api);
+      console.log(userdata.name);
+    }
+
+    getBlog();
+  </script>-->
+
+  <br><br><br>
+  <div>
+    <a href="blog.html" style="display: flex; align-items: center; justify-content: center;">Blog Sayfasına geri dön <i class="ion-ios-arrow-forward"></i></a></span>
+    </p>
+  </div>
+
+  <section class="ftco-section" style="padding-top: 50px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 ftco-animate">
+
+          <h2 class="mb-3"><span id="blog-header"></span></h2>
+          <p><span id="blog-content"></span>
+          </p>
+          <p>
+            <img src="images/blog_ses.webp" alt="" class="img-fluid">
+          </p>
+
+          <div class="about-author d-flex p-4 bg-light">
+              <div class="bio mr-5" style="width: 30%;">
+                  <img src="images/ogrenci-emre.jpg" alt="Image placeholder" class="img-fluid mb-4">
+              </div>
+              <div class="desc">
+                  <h2>Yazar</h2>
+                  <h5><span id="author-name"></span></h5>
+                  <p>... öğrencisi</p>
+              </div>
+          </div>
+
+        </div>
+      </div>
     </div>
 
-    <section class="ftco-section" style="padding-top: 50px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 ftco-animate">
-                    <h2 class="mb-3">Ses Mühendisliği Mezunu Ne İş Yapar? Nasıl Olunur?</h2>
-                    <p>Ses mühendisliği bölümünden mezun olanların yaptığı iş müzik parçalarını, ses ve ses efektlerini karıştırmak ve kaydetmeye yöneliktir. Sesleri senkronize etmek gibi bir görevi de vardır. Ses mühendisliği mesleğini yapanların görevlerinden
-                        bahsetmek gerekirse:
-                    </p>
-                    <p>
-                        <img src="images/blog_ses.webp" alt="" class="img-fluid">
-                    </p>
-                    <p>Prodüksiyonda ve kayıt sırasında kullanılacak sesi belirlemek için yapımcı ve sabatçı ile görüşmek.</p>
-                    <p>Kaydı yapılan sesleri, müzikleri ve bant ses efektlerini karıştırmak ve düzenlemek.</p>
-                    <p>Stüdyo ortamında ses, müzik ve efekt kaydı yapmak.</p>
-                    <p>Kontrol konsolları aracılığıyla kayıt seansları sırasında ses seviyesini ve kalitesini düzenlemek.</p>
-                    <p>Prodüksüyonun yapım aşamasında sesleri birleştirmek.</p>
-                    <p>Kayıtlarda ve canlı performanslarda kullanılacak mikrofon gibi aletlerin kurulumunu yapmak.</p>
-                    <p>Düzgün bir çalışma için kurulum sırasında aletleri kontrol etmek.</p>
-                    <p>Sesin temiz kaydını alabilmek için kötü kayıtları düzenlemek.</p>
-                    <p>Kayıt işleminden sonra ekipmanı toplamak.</p>
-                    <p>Teknik problemleri çözmek.</p>
-                    <p>Ekipmanları ve kayıtları muhafaza etmek.</p>
-
-                    <h3>Ses Mühendisi Nasıl Olunur?</h3>
-                    <p>
-                        <img src="images/blog_ses2.jpeg" alt="" class="img-fluid">
-                    </p>
-                    <p>Ses mühendisi olmak için üniversite sınavına girmek ve başarılı olmak gerekir. Yeterli puan varsa üniversitelerin 4 yıllık ses mühendisliği bölümüne yerleşilir. 4 yıl eğitim aldıktan sonra başarılı bir şekilde mezun olan öğrenciler
-                        ses mühendisliği lisans diplomasına sahip olurlar. Bu sayede ses mühendisi unvanına sahip olurlar ve çalışma alanlarından istediklerini tercih edebilirler.</p>
-
-                    <div class="tag-widget post-tag-container mb-5 mt-5">
-                        <div class="tagcloud">
-                            <a href="#" class="tag-cloud-link">müzik</a>
-                            <a href="#" class="tag-cloud-link">mühendis</a>
-                            <a href="#" class="tag-cloud-link">teknoloji</a>
-                            <a href="#" class="tag-cloud-link">kayıt</a>
-                        </div>
-                    </div>
-
-                    <div class="about-author d-flex p-4 bg-light">
-                        <div class="bio mr-5" style="width: 30%;">
-                            <img src="images/ogrenci-aysu.jpg" alt="Image placeholder" class="img-fluid mb-4">
-                        </div>
-                        <div class="desc">
-                            <h2>Yazar</h2>
-                            <h5>Aysu Nur Terzi</h5>
-                            <p>Ses Mühendisliği 4. sınıf öğrencisi</p>
-                        </div>
-                    </div>
+  </section>
 
 
-                </div>
-                <!-- .col-md-8 -->
-                <div class="col-lg-4 sidebar ftco-animate">
-                    <div class="sidebar-box">
-                        <form action="#" class="search-form">
-                            <div class="form-group">
-                                <span class="icon icon-search"></span>
-                                <input type="text" class="form-control" placeholder="Anahtar kelimeyi yazınız">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="sidebar-box ftco-animate">
-                        <h3>KATAGORİLER</h3>
-                        <ul class="categories">
-                            <li><a href="#">Teknoloji <span>(5)</span></a></li>
-                            <li><a href="#">Hukuk <span>(8)</span></a></li>
-                            <li><a href="#">Sağlık <span>(2)</span></a></li>
-                            <li><a href="#">Mühendislik <span>(2)</span></a></li>
-                            <li><a href="#">Müzik <span>(2)</span></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="sidebar-box ftco-animate">
-                        <h3>Popüler Yazılar</h3>
-                        <div class="block-21 mb-4 d-flex">
-                            <a class="blog-img mr-4" style="background-image: url(images/blog_hukuk1.jpeg);"></a>
-                            <div class="text">
-                                <h3 class="heading"><a href="construction.html">Hukuk Mezunlarının Yönelebileceği Meslekler Nelerdir?</a>
-                                </h3>
-                                <div class="meta">
-                                    <div><span class="icon-calendar"></span> 12 Mayıs 2019 </div>
-                                    <div><span class="icon-person"></span> Emre Karaca </div>
-                                    <div><span class="icon-chat"></span> 1203 </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="block-21 mb-4 d-flex">
-                            <a class="blog-img mr-4" style="background-image: url(images/blog_ses2.jpeg);"></a>
-                            <div class="text">
-                                <h3 class="heading"><a href="blog-single.html">Ses Mühendisliği Mezunu Ne İş Yapar? Nasıl Olunur?</a>
-                                </h3>
-                                <div class="meta">
-                                    <div><span class="icon-calendar"></span> 27 Mayıs 2019</div>
-                                    <div><span class="icon-person"></span> Aysu Nur Terzi</div>
-                                    <div><span class="icon-chat"></span> 2678</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="block-21 mb-4 d-flex">
-                            <a class="blog-img mr-4" style="background-image: url(images/blog_kitap.webp);"></a>
-                            <div class="text">
-                                <h3 class="heading"><a href="construction.html">Tıp Öğrencilerinin Okuması Gereken 6 Kitap</a>
-                                </h3>
-                                <div class="meta">
-                                    <div><span class="icon-calendar"></span> 5 Mayıs 2019</div>
-                                    <div><span class="icon-person"></span> Z. Sena Yurdadur</div>
-                                    <div><span class="icon-chat"></span> 879</div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="block-21 mb-4 d-flex">
-                            <a class="blog-img mr-4" style="background-image: url(images/blog_blog.jpeg);"></a>
-                            <div class="text">
-                                <h3 class="heading"><a href="construction.html">Mimarlık Nedir? Mimarlar Ne Yapar?</a>
-                                </h3>
-                                <div class="meta">
-                                    <div><span class="icon-calendar"></span> 21 Nisan 2019 </div>
-                                    <div><span class="icon-person"></span> Betül Azakoğlu </div>
-                                    <div><span class="icon-chat"></span> 11487 </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="block-21 mb-4 d-flex">
-                            <a class="blog-img mr-4" style="background-image: url(images/blog_psikoloji.webp);"></a>
-                            <div class="text">
-                                <h3 class="heading"><a href="construction.html">Psikiyatri Nedir? Psikiyatri Eğitimi Kaç Yıldır?</a>
-                                </h3>
-                                <div class="meta">
-                                    <div><span class="icon-calendar"></span> 28 Nisan 2019</div>
-                                    <div><span class="icon-person"></span> Zeynep Gök</div>
-                                    <div><span class="icon-chat"></span> 1075</div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <div class="sidebar-box ftco-animate">
-                        <h3>Etiketler </h3>
-                        <ul class="tagcloud m-0 p-0">
-                            <a href="#" class="tag-cloud-link">Müzik</a>
-                            <a href="#" class="tag-cloud-link">Teknoloji</a>
-                            <a href="#" class="tag-cloud-link">Hukuk</a>
-                            <a href="#" class="tag-cloud-link">Sağlık</a>
-                            <a href="#" class="tag-cloud-link">Dans</a>
-                            <a href="#" class="tag-cloud-link">Mühendislik</a>
-                            <a href="#" class="tag-cloud-link">Yaşam</a>
-                        </ul>
-                    </div>
-
-
-
-
-                </div>
-                <!-- END COL -->
-            </div>
-        </div>
-    </section>
-
-
-    <my-footer></my-footer>
-
-
-    <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+  <my-footer></my-footer>
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
       <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-        stroke="#F96D00" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
     </svg></div>
 
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script>
-    <script src="js/main.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 

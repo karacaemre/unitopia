@@ -32,7 +32,7 @@ const displayCharacters = (characters) => {
             return `
             <div class="col-md-6 col-lg-4">
             <div class="blog-entry">
-            <a href="blog-singleFromApi.html?blogId=${character.id}" class="block-20 d-flex align-items-end" style="background-image: url('images/blog_ses.webp');">
+            <a href="blog-single.html?blogId=${character.id}" class="block-20 d-flex align-items-end" style="background-image: url('images/blog_ses.webp');">
                 <div class="meta-date text-center p-2">
                     <span class="day">${character.createdAt.substr(8, 2)}</span>
                     <span class="mos">${character.createdAt.substr(5, 2)}</span>
