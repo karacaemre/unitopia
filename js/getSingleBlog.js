@@ -1,4 +1,8 @@
-const api_url = 'http://localhost:3001/blogs/getOne/2';
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const blogId = urlParams.get('blogId');
+const api_url = 'http://localhost:3001/blogs/getOne/'+blogId;
+
 async function getSingleBlog() {
   const response = await fetch(api_url);
   const data = await response.json();
