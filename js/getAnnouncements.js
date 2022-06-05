@@ -1,5 +1,8 @@
 const announcementsList = document.getElementById('announcementsList');
 let allAnnouncements = [];
+// var months = [ "Oca", "Şub", "Mar", "Nis", "May", "Haz",
+//            "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara" ];
+// var selectedMonthName = months[value['month']];
 // let date='';
 // let year = text.substr(0, 4);
 // let month = text.substr(5, 2);
@@ -21,8 +24,6 @@ const displayAnnouncements = (announcements) => {
     const htmlString = announcements
         .map((announcement) => {
             return `
-
-
 
             <li class="d-flex duyuru" onclick="location.href = 'duyuru-detay.html';">
                 <div class="date">

@@ -16,7 +16,7 @@ searchBar.addEventListener('keyup', (e) => {
 
 const loadCharacters = async () => {
     try {
-        const res = await fetch('http://localhost:3001/announcements/getAll');
+        const res = await fetch('http://localhost:3001/blogs/getAll');
         console.log(res);
         hpCharacters = await res.json();
         displayCharacters(hpCharacters);
@@ -34,9 +34,9 @@ const displayCharacters = (characters) => {
             <div class="blog-entry">
             <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/blog_ses.webp');">
                 <div class="meta-date text-center p-2">
-                    <span class="day">26</span>
-                    <span class="mos">Mayıs</span>
-                    <span class="yr">2019</span>
+                    <span class="day">${character.createdAt.substr(8, 2)}</span>
+                    <span class="mos">${character.createdAt.substr(5, 2)}</span>
+                    <span class="yr">${character.createdAt.substr(0, 4)}</span>
                 </div>
             </a>
                 <div class="text bg-white p-4">
