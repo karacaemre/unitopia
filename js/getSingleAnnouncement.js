@@ -1,6 +1,6 @@
-const api_url = 'http://localhost:3001/blogs/getOne/2';
-async function getBlog() {
-  const response = await fetch(api_url);
+const announcement_api_url = 'http://localhost:3001/announcements/getOne/2';
+async function getSingleAnnouncement() {
+  const response = await fetch(announcement_api_url);
   const data = await response.json();
   const {
     header,
@@ -15,9 +15,9 @@ async function getBlog() {
 
 
 
-  document.getElementById("blog-header").textContent = header;
-  document.getElementById("blog-content").textContent = content;
-  document.getElementById("author-name").textContent = userdata.name;
+  document.getElementById("announcement-header").textContent = header;
+  document.getElementById("announcement-content").textContent = content;
+  document.getElementById("announcement-author-name").textContent = userdata.name;
   console.log(content);
   console.log(header);
   console.log(authorId);
@@ -26,4 +26,4 @@ async function getBlog() {
   console.log(userdata.name);
 }
 
-getBlog();
+getSingleAnnouncement();
