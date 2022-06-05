@@ -8,14 +8,14 @@ async function getSingleAnnouncement() {
   const data = await response.json();
   const {
     header,
-    content,
-    authorId
+    content
   } = data;
-  const user_id_string = authorId.toString();
-  const user_api = 'http://localhost:3001/users/getOne/' + user_id_string;
-
-  const userresponse = await fetch(user_api);
-  const userdata = await userresponse.json();
+  
+  // const user_id_string = authorId.toString();
+  // const user_api = 'http://localhost:3001/users/getOne/' + user_id_string;
+  //
+  // const userresponse = await fetch(user_api);
+  // const userdata = await userresponse.json();
 
   document.getElementById("announcement-header").textContent = header;
   document.getElementById("announcement-content").textContent = content;

@@ -2,6 +2,7 @@ const charactersList = document.getElementById('charactersList');
 const searchBar = document.getElementById('searchBar');
 let hpCharacters = [];
 
+
 searchBar.addEventListener('keyup', (e) => {
     const searchString = e.target.value.toLowerCase();
 
@@ -41,8 +42,7 @@ const displayCharacters = (characters) => {
             </a>
                 <div class="text bg-white p-4">
                     <h3 class="heading">${character.header}</h3>
-                    <p>${character.content}</p>
-                    <p>Yazarı: ${character.authorId}</p>
+                    <p>${character.content.substr(0, 200)}...</p>
                 </div>
             </div>
             </div>
