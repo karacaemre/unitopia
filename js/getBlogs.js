@@ -30,6 +30,8 @@ const loadCharacters = async () => {
 const displayCharacters = (characters) => {
     const htmlString = characters
         .map((character) => {
+
+          if(character.status=='approved'){
             return `
             <div class="col-md-6 col-lg-4">
             <div class="blog-entry">
@@ -47,7 +49,7 @@ const displayCharacters = (characters) => {
             </div>
             </div>
 
-        `;
+        `;}
         })
         .join('');
     charactersList.innerHTML = htmlString;
